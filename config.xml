@@ -9,6 +9,9 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <plugin name="cordova-plugin-bluetoothle" source="npm" spec="~4.4.4" />
+	  <plugin name="cordova-plugin-bluetooth-serial" source="npm" spec="~0.4.7" />
+	  <plugin name="cordova-plugin-bluetooth-status" source="npm" spec="~1.0.4" />
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
